@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desarollo Web</title>
+    <link rel="icon" type="image/png" href="./images/13.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Mina:wght@700&family=Roboto+Mono:wght@423&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <i class="icon-menu burguer-button" id="burger-menu"></i>
+    <header class="header">
+
+        <div class="container">
+            <figure class="logo">
+                <img src="./images/9.png" height="50" alt="Logotipo">
+            </figure>
+            <nav class="menu">
+                <ol>
+                    <li>
+                        <a class="link" href="#portafolio">Portafolio</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#event" >Experiencia</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#contacto" >Trabajemos Juntos</a>
+                    </li>
+                </ol>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            
+            <h1>
+                Hola soy estudiante de Platzi <br><strong>@Songer</strong><br>
+                desde <strong>Guatemala</strong>
+            </h1>
+            <img src="./images/5.jpg" alt="Estudiante" width="500" height="300" class="hero-image">
+        </div>
+    </section>
+    <section id="portafolio" class="portfolio">
+        <div class="container">
+            <h2>Portafolio</h2>
+            <article class="project">
+                <div class="project-details">
+    
+                    <h3 class="project-title">Platzi Video</h3>
+                    <h6 class="project-course">React Native / React</h6>
+                    <p class="project-date"><small><strong>Fecha:</strong> 02/08/2020</small></p>
+                    <p class="project-url"><small><strong>Puedes verlo en: </strong> platzi.com/native</small></p>
+                    <p class="project-description">Platzi Video fue el resultado de 3 meses de trabajo para crear la mejor app para enseñar el funcionamiento de React y React Native. Desde crear un vista-detalle, hasta patrones avanzados de navegación, este proyecto ha sido el ejemplo de futuros creadores de aplicaciones multiplataforma
+        
+                        El evento más grande sobre gente que quiere aprender más de internet. En este evento te comparto cómo tener una vida de constante aprendizaje.</p>
+                </div>
+                <figure class="project-imageContainer">
+                    <img class="project-image"  src="./images/4.png" alt="React Native Course" width="500">        
+                </figure>
+            </article>
+        </div>
+                
+    </section>
+     <div class="container">
+        <h2 class="event-list-title">Mas sobre mi experiencia</h2>
+
+    </div>
+    <section id="event" class="event-list">
+        <div class="container">
+            <article class="event">
+                <figure class="event-imageContainer">
+                    <img class="event-image" src="./images/3.jpg" alt="PlatziConf" width="500" height="300">
+                </figure>
+                <div class="event-detail">
+                    <h3 class="event-title">PlatiConf MEX 2020</h3>
+                    <p class="event-description">El evento más grande sobre gente que quiere aprender más sobre tecnologia</p>
+                    <a class="event-url">Ver Plática</a>
+    
+                </div>
+            </article>
+            <article class="event">
+                <figure class="event-imageContainer">
+                    <img class="event-image" src="./images/3.jpg" alt="PlatziConf" width="500" height="300">
+                </figure>
+                <div class="event-detail">
+                    <h3 class="event-title">PlatiConf MEX 2020</h3>
+                    <p class="event-description">El evento más grande sobre gente que quiere aprender más sobre tecnologia</p>
+                    <a class="event-url">Ver Plática</a>
+    
+                </div>
+            </article>
+            <article class="event">
+                <figure class="event-imageContainer">
+                    <video class="html-video" src="https://www.youtube.com/watch?v=_kpY7ncSeK8" loop controls muted></video>
+                    <!-- <img class="event-image" src="./images/3.jpg" alt="PlatziConf" width="500" height="300"> -->
+                </figure>
+                <div class="event-detail">
+                    <h3 class="event-title">PlatiConf MEX 2020</h3>
+                    <p class="event-description">El evento más grande sobre gente que quiere aprender más sobre tecnologia</p>
+                    <a class="event-url">Ver Plática</a>
+    
+                </div>
+            </article>
+            <article class="event">
+                <figure class="event-imageContainer">
+                    <div class="flexible-video">
+
+                        <iframe class="youtube-video" width="560" height="315" src="https://www.youtube.com/embed/_kpY7ncSeK8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <!-- <img class="event-image" src="./images/3.jpg" alt="PlatziConf" width="500" height="300"> -->
+                </figure>
+                <div class="event-detail">
+                    <h3 class="event-title">PlatiConf MEX 2020</h3>
+                    <p class="event-description">El evento más grande sobre gente que quiere aprender más sobre tecnologia</p>
+                    <a class="event-url">Ver Plática</a>
+    
+                </div>
+            </article>
+
+        </div>
+    </section>
+    <section id="contacto" class="contact">
+        <div class="container">
+            <form action="/suscription/" class="form-email">
+                <h3><label for="email">Creamos algo juntos?</label></h3>
+                
+                <input type="text" placeholder="Dejanos tu correo" id="email">
+                <button>Enviar</button>
+            </form>
+            <div class="social">
+                <i class="icon-twitter"></i>
+                <i class="icon-facebook"></i>
+                <i class="icon-github"></i>
+                <i class="icon-instagram"></i>
+                <!-- <a href="https://twitter.com" class='social-link twitter'></a> -->
+                <!-- <a href="https://facebook.com" class='social-link facebook'></a> -->
+                <!-- <a href="https://github.com" class='social-link github'></a> -->
+                <!-- <a href="https://instagram.com" class='social-link instagram'></a> -->
+            </div>
+
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+
+            <div>
+                <p>Curso de desarollo web 2020  <img src="./images/platzi.png" width="80" alt="Logo Platzi"></p>
+            </div>
+            <div>
+                <p>
+                    Designed with &#x2665; by <a href="https://twitter.com/songerius" target="_blank">@Songerius</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/java.js"></script>
+</body>
+</html>
